@@ -3,6 +3,9 @@ body {
 	background-color: orange;
 	margin: 0;
 	padding: 0;
+	background-image: url(40a495851c1d3d66f3a29faf7526bc51.jpg);
+	background-size: cover;
+	color: pink;
 }
 
 .das {
@@ -57,4 +60,29 @@ body {
 	position: absolute;
 	top: 100px;
 	left: 100px;
+}
+.fly1 {
+	position: absolute;
+	top: 50px;
+	left: 40px;
+}
+.fly2 {
+	font-size: 25px;
+	top: 180px;
+	position: absolute;
+	left: 340px;
+}
+.fly32 {
+	position: absolute;
+	bottom: 180px;
+	right: 380px;
+	animation: jump 4s ease 0s infinite;
+	color: pink;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+@keyframes jump {
+	0%{transform:scale(1) rotate(0deg) }
+	50%{transform:scale(2) rotate(40deg) }
+	100%{transform:scale(1) rotate(0deg)}
 }
