@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 body {
 	background-color: orange;
 	margin: 0;
@@ -6,6 +7,8 @@ body {
 	background-image: url(40a495851c1d3d66f3a29faf7526bc51.jpg);
 	background-size: cover;
 	color: pink;
+	overflow: hidden;
+
 }
 
 .das {
@@ -21,14 +24,17 @@ body {
 }
 
 .das img {
-	border-radius: 234px;
-	
+	border-radius: 34px;
+
+
 }
+
 .menu {
 	text-align: center;
 	color: black;
 	padding: 10px;
 }
+
 .menu a {
 	color: orange;
 	font-family: 'Roboto', sans-serif;
@@ -40,14 +46,17 @@ body {
 	border-radius: 30px;
 	transition: 0.3s;
 }
+
 .menu a:hover {
 	background-color: white;
 
 }
+
 .contact {
 	display: none;
 
 }
+
 .hi-andrey {
 	width: 400px;
 	margin: auto;
@@ -55,23 +64,31 @@ body {
 	padding: 30px;
 	height: 100vh;
 	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.5);
+	font-family: 'Roboto', sans-serif;
+
+
 }
+
 .fly {
 	position: absolute;
 	top: 100px;
 	left: 100px;
 }
+
 .fly1 {
 	position: absolute;
 	top: 50px;
 	left: 40px;
 }
+
 .fly2 {
 	font-size: 25px;
 	top: 180px;
 	position: absolute;
 	left: 340px;
 }
+
 .fly32 {
 	position: absolute;
 	bottom: 180px;
@@ -81,8 +98,162 @@ body {
 	font-family: 'Roboto', sans-serif;
 	text-decoration: none;
 }
+
 @keyframes jump {
-	0%{transform:scale(1) rotate(0deg) }
-	50%{transform:scale(2) rotate(40deg) }
-	100%{transform:scale(1) rotate(0deg)}
+	0% {
+		transform: scale(1) rotate(0deg)
+	}
+
+	50% {
+		transform: scale(2) rotate(40deg)
+	}
+
+	100% {
+		transform: scale(1) rotate(0deg)
+	}
+}
+
+.fly3 {
+	position: absolute;
+	bottom: 150px;
+	right: 260px;
+	color: red;
+	text-decoration: none;
+	animation: fly 3s infinite;
+}
+
+@keyframes fly {
+	0% {
+		transform: scale(1) rotate(0deg);
+		color: red
+	}
+
+	50% {
+		transform: scale(2) rotate(360deg);
+		color: blue
+	}
+
+	100% {
+		transform: scale(1) rotate(0deg);
+		color: pink
+	}
+}
+
+.fly4 {
+	position: absolute;
+	bottom: 160px;
+	left: 200px;
+	animation: fly4 3s infinite;
+
+
+}
+
+@keyframes fly4 {
+	0% {
+		transform: scale(3) rotate(0deg);
+		color: pink
+	}
+
+	50% {
+		transform: scale(0.5) rotate(360deg);
+		color: black
+	}
+
+	100% {
+		transform: scale(3) rotate(0deg);
+		color: pink
+	}
+}
+
+.fly8 {
+	position: absolute;
+	z-index: 0;
+	animation: fly8 5s infinite;
+	width: 50px;
+	height: 50px;
+	left: 160px;
+	top: 260px;
+
+}
+
+@keyframes fly8 {
+	0% {
+		width: 50px;
+		box-shadow: 0px 0px 20px yellow;
+	}
+
+	50% {
+		width: 500px;
+		box-shadow: 0px 0px 0px yellow;
+	}
+
+	100% {
+		width: 50px;
+		box-shadow: 0px 0px 20px Violet;
+	}
+}
+
+.fly42 {
+	bottom: 200px;
+	left: 370px;
+	position: absolute;
+	animation: fly42 6s infinite;
+
+}
+
+@keyframes fly42 {
+	0% {
+		transform: scale(1) rotate(0deg);
+		color: white
+	}
+
+	50% {
+		transform: scale(10) rotate(1360deg);
+		color: hsl(71, 78%, 79%)
+	}
+
+	100% {
+		transform: scale(1) rotate(0deg);
+		color: pink
+	}
+}
+
+.fly-maksim {
+	top: 80px;
+	right: 240px;
+	position: absolute;
+	width: 400px;
+	animation: fly-maksim 6s infinite;;
+}
+@keyframes fly-maksim {
+	0% {
+		top: 80px;
+		right: 240px;
+	}
+
+	25% {
+		top: 10px;
+		right: 800px;
+	}
+	50% {
+		top: 600px;
+		right: 100px;
+	}
+	75% {
+		top: 600px;
+		right: 800px;
+	}
+	100% {
+		top: 80px;
+		right: 240px;	
+	}
+	
+}
+
+.banana {
+	right: 200px;
+	position: absolute;
+	top: 300px;
+	color: red;
+	text-decoration: underline;
 }
