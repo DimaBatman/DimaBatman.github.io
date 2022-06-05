@@ -257,3 +257,19 @@ body {
 	color: red;
 	text-decoration: underline;
 }
+.foto-body {
+	background-image: url("fotolegendarkiveka/Без\ названия.jpg");
+	background-size: 100%;
+	background-position: fixed;
+	overflow-y: scroll;
+	text-align: center;
+}
+.foto-body img {
+	width: 300px;
+	margin: 20px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px black;
+}
+.foto-body a {
+	color: white;
+}
