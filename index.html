@@ -1,18 +1,370 @@
+<!-- +заголовок
+-меню,жанры
+-Таблица
+-картинки -->
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>мой сайт</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-	<div class="das">
-		<img src="hiAndrey.jpg" alt="">
-	</div>
-	<div class="menu">
-		<a href="">Главная</a>
-		<a href="info.html">Информация</a>
-		<a href="foto.html">Фотографии</a>
-	</div>
-	<a href="" class="contact">Контакты</a>
+    <h1>Библиотека ДМИТРИЯ Первого</h1>
+    <div class="menu">
+        <a href="#fantasy">Фентези</a>
+        <a href="#fiction">Фантастика</a>
+        <a href="#storical">Исторические</a>
+        <a href="#dystopia">Антиутопия</a>
+    </div>
+
+    <h2 id="fantasy">Фентези</h2>
+
+    <table border="0" class="tbl">
+        <tr>
+            <td>
+                <a target="_blank" href="https://ru.wikipedia.org/wiki/Эрагон_(роман)">
+                    <img src="img/141669-kristofer-paolini-eragon.jpg" alt="" class="imd">
+                </a>
+            </td>
+            <td>
+                <h3>Эрагон</h3>
+                <a target="_blank"
+                    href="https://www.ozon.ru/product/eragon-kniga-1-eragon-148803704/?asb=ozuDA%252FZlVlkCaPvx5WhMIAGduiYpYzLFv9D139%252FPHDtJnqn5T8BYCfjIlVGaI95m&asb2=TkMZpTSkC0p3q_j4Asfma7D0BfmelRSptTeo3hu6n1YdbG6LKaHiS3XCHt6d3xDi-vXEJ_j-Adh0S3VGDyk5DkPgHgDJLnQwCz3oysMGBM-jo8cb5DmisEXPfMbbeS9KFXfVQbTHUZWSmRRIG6KcZ-sRNXGIN8FcVov3tUv0LnU&avtc=1&avte=2&avts=1665937855&keywords=%D1%8D%D1%80%D0%B0%D0%B3%D0%BE%D0%BD&sh=odJtMtuvAw"
+                    class="kupit">Купить</a>
+                <p>Эрагон — мальчик, живущий в деревне Карвахолл.
+                    Отправившись на охоту, он случайно становится обладателем таинственного камня,
+                    оставленного захваченной воинами Империи эльфийкой Арьей. Эрагон не подозревает о том,
+                    что этот камень ищут подданные короля Гальбаторикса, и лишь со временем узнает,
+                    что камень является драконьим яйцом, так как из него вылупляется дракон.
+                    Эрагон становится из простого сельского жителя драконьим Всадником и находит наставника в лице
+                    Брома,
+                    который берет на себя ответственность за обучение Эрагона.</p>
+                <p> Сюжет первой книги заканчивается сражением варденов, Эрагона и его друзей с ургалами и шейдом при
+                    Фартхен-Дуре — Городе-Горе гномов и последнем убежищем варденов.</p>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a target="_blank" href="https://ru.wikipedia.org/wiki/Властелин_колец">
+                    <img src="img/2423346_detail.jpg" alt="" class="imd">
+                </a>
+            </td>
+            <td>
+                <h3>Властелин колец</h3>
+                <a target="_blank"
+                    href="https://www.ozon.ru/product/vlastelin-kolets-tolkin-dzhon-ronald-ruel-227780504/?asb=ixppPC02TKaE%252BaxL8dEv9zm%252BBcd5UQQD6UHncpvtj6U%253D&asb2=Tyqt84Ux5cCNSCqh9oMXXuuD410FeRVdsVfqm_ySbcEDOkQ9hmkjN7osvvZIaqRn&avtc=1&avte=2&avts=1665937985&keywords=%D0%B2%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D0%BB%D0%B8%D0%BD+%D0%BA%D0%BE%D0%BB%D0%B5%D1%86&sh=odJtMp-DQw"
+                    class="kupit">Купить</a>
+                <p>«Властели́н коле́ц» — роман-эпопея английского писателя Дж. Р. Р. Толкина, <br>
+                    одно из самых известных произведений жанра фэнтези. «Властелин колец» <br>
+                    был написан как единая книга, но из-за объёма при первом издании его <br>
+                    разделили на три части — «Братство Кольца», «Две крепости» и «Возвращение <br>
+                    короля».</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a target="_blank" href="https://www.mirf.ru/book/dzhordzh-martin-plamya-i-krov-plyaska-smerti/">
+                    <img src="img/boocover.jpg" alt="" class="imd">
+                </a>
+            </td>
+            <td>
+                <h3>Пляска Смерти</h3>
+                <a target="_blank"
+                    href="https://www.ozon.ru/product/dom-drakona-plamya-i-krov-plyaska-smerti-martin-dzhordzh-r-r-250451748/?asb=JmL%252BcdMyeZ4bzWnNteboBJ9mDrGL37VqzrFjNIBubYI%253D&asb2=TztPC9bEWkV2SlMQXv1hirNIo3UAVYVArsYqCPcUBe-xe1vJCYq6HI1irb1n7CbF&avtc=1&avte=2&avts=1665938161&keywords=%D0%BF%D0%BB%D1%8F%D1%81%D0%BA%D0%B0+%D1%81%D0%BC%D0%B5%D1%80%D1%82%D0%B8&sh=odJtMj2ThA"
+                    class="kupit">Купить</a>
+                Тирион Ланнистер еще не стал заложником жестокого рока, Бран Старк еще не сделался <br> калекой, а
+                голова его отца Неда Старка еще не скатилась с эшафота. Ни один человек <br> в Королевствах не смеет
+                даже предположить, что Дейенерис Таргариен когда-нибудь назовут Матерью Драконов. ...
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a target="_blank" href="https://ru.wikipedia.org/wiki/Ведьмак_(серия_романов)"><img
+                        src="img/2312670_detail.jpg" alt="" class="imd">
+                </a>
+            </td>
+            <td>
+                <h3>Ведьмак</h3>
+                <a target="_blank"
+                    href="https://www.ozon.ru/product/vedmak-poslednee-zhelanie-mech-prednaznacheniya-krov-elfov-chas-prezreniya-kreshchenie-ognem-250792045/?asb=JasD%252FQFhSCCST2OJqxOP2%252Buk70rkh9C8igHyTfs3k%252Bw%253D&asb2=IHRbiDgt-MJ6pC04FZum17kgRCGlL6kbUD8cmfTn5vCs0o7NozSFPqC6iPn1XUcQ&avtc=1&avte=2&avts=1665938207&keywords=%D0%B2%D0%B5%D0%B4%D1%8C%D0%BC%D0%B0%D0%BA&sh=odJtMv6cLA"
+                    class="kupit">Купить</a>
+                Ведьмак-один из последних «ведьмаков», бродячих охотников на чудовищ. <br>
+                В то время как первые книги цикла представляют собой сборники <br>
+                рассказов о приключениях Геральта, нередко сатирически обыгрывая <br>
+                фольклор и классические литературные сказки, сюжет последующих книг <br>
+                представляет собой более масштабную историю, построенную вокруг Геральта <br>
+                и его воспитанницы Цири, обладающей сверхъестественными способностями.
+            </td>
+        </tr>
+    </table>
+
+    <h2 id="fiction">Фантастика</h2>
+
+    <table class="tbl">
+        <tr>
+            <td>
+                <a target="_blank" href="https://ru.wikipedia.org/wiki/Дюна_(роман)"><img src="img/6065262130.jpg"
+                        alt="" class="imd">
+                </a>
+            </td>
+            <td>
+                <h3>Дюна</h3>
+                <a target="_blank"
+                    href="https://www.ozon.ru/product/dyuna-gerbert-frenk-250791917/?asb=Lgk6xkeEOlnN3szAQVMtQkIx62UZyLfNtgRRhwAn7oU%253D&asb2=E2fzNfEUeR_PPNG54qdIbT1iKCFX0YIBEJ0J-XDiasRW526n30oGcHGDNWpcoDm4&avtc=1&avte=4&avts=1665938362&keywords=%D0%B4%D1%8E%D0%BD%D0%B0+%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0&sh=odJtMpF3VA"
+                    class="kupit">Купить</a>
+                Действие «Дюны» происходит в галактике далёкого будущего <br>
+                под властью межзвёздной империи, в которой феодальные семейства <br>
+                владеют целыми планетами. «Дюна» рассказывает историю молодого <br>
+                аристократа по имени Пол Атрейдес, чья семья получает в управление <br>
+                планету Арракис. В пустынях Арракиса добывают особое вещество — «пряность», <br>
+                необходимое для космических перелётов. После военного переворота Пол вынужден <br>
+                скрываться среди жителей пустынь — фременов — и в итоге поднимает их на священную <br>
+                войну против империи. «Дюна» соединяет в себе черты научно-фантастического и фило- <br>
+                софского романа, используя экзотические для американской фантастики 1960-х годов <br>
+                ближневосточные (арабские и персидские) имена и образы для создания многослойного <br>
+                повествования, затрагивающего, среди прочего, темы политики, религии, технологии и экологии.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a target="_blank" href="https://ru.wikipedia.org/wiki/Пикник_на_обочине"><img src="img/123321.jpg"
+                        alt="" class="imd">
+                </a>
+            </td>
+            <td>
+                <h3>Пикник на обочине</h3>
+                <a target="_blank"
+                    href="https://www.ozon.ru/product/piknik-na-obochine-32288128/?advert=XKUCY0SgTpgtO5iH3Xm6d8tkAGePeC2VH_Y7DrqQ5HmE91r1EfABKuCmDVEkxxb56KAWookOUJ9zv0J1a-uMLDIMmCsvQR86gefBxz7gKzxHf7QOf-trTvWMDbnaQk6GMLByPrfUin4G4KH3qv59mqh236uh04b41tn9zO7HMCtjj9OgorrWNXPT4i4a9HQeYprJVnfHVuzt4sqWJzH4Jrma-aLMLKpGpW19GA-vTeTuA7-V7y6fO9wtn_p-_tSyvk-FHqe6AlrG1iPvYfpL-UzCTJEJ2D51qvp_q7d5VAjTG-GzBmfAClO2ldqipnkOaDWD3Vj1ndlXl6L7EUTiOCocC95A7J-Aw5uBkiNSNxv01ginhH8FbmRY3BJJYU7zj2vPdQtrvaPmXFI4MzsjThEP3ng74441D5gjRAE3DwwiufUWagA3fLO_vcMnnWBdL0MmReQEE7BXH_L4WN0TY2pDw2di5KYGZOXcJ5F5sYccZdx0VRIhFCUJBrQP-iqxVU17FMJA4iWYYr7OZyI8YiVETteWE4X-FbWyVnl0vVQLQehE5RSOCcKry1lRRlVkcQoMnmK5b4BlzbqLtj37KCTkTbEyjm2-jM8Fg7eShBYxDJtvEqAxKuMA2KTNbCazrXy0ScYLsdyIIp25aD4Q_3gbTkS1I5yPwfOVjrNHa6LoL7aEeW4WpvmP32nd7alLUqphu_TpWjNz7dIrtfL2GZGe3AcJyA90bE3A1lJbQRmGnEDBMv0yrDbeThPFE5B5&avtc=1&avte=4&avts=1665938407&keywords=%D0%BF%D0%B8%D0%BA%D0%BD%D0%B8%D0%BA+%D0%BD%D0%B0+%D0%BE%D0%B1%D0%BE%D1%87%D0%B8%D0%BD%D0%B5&sh=odJtMnIxtg"
+                    class="kupit">Купить</a>
+                <p>Действие повести происходит на Земле предположительно в 1970-е годы в городке <br>
+                    Хармонт, в выдуманной англоязычной стране[14]. </p>
+
+                Примерно за 13 лет[15] до начала описываемых в книге событий в нескольких местах <br>
+                на земном шаре возникает шесть «зон» — областей, в которых начинают происходить <br>
+                странные явления, нарушающие известные законы физики. Зоны расположены вдоль плавной <br>
+                линии на поверхности Земли, проекции так называемого радианта Пильмана — точки, лежащей <br>
+                на прямой, соединяющей Землю и Денеб. Быстро выяснилось, что людям и животным проживать <br>
+                в Зонах очень опасно, и всё население было из них срочно эвакуировано. Территории Зон <br>
+                были обнесены ограждением, взяты под строгую охрану и официально стали предметом осторо- <br>
+                жного научного изучения. Также очень быстро обнаруживается, что в Зонах много артефактов <br>
+                непонятного предназначения. Некоторые из них весьма полезны — например, могут лечить болезни, <br>
+                некоторые просто странные игрушки, а некоторые — крайне опасны.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a target="_blank" href="https://ru.wikipedia.org/wiki/Зов_Ктулху"><img src="img/321.jpeg" alt=""
+                        class="imd">
+                </a>
+            </td>
+            <td>
+                <h3>Зов Ктулху</h3>
+                <a target="_blank"
+                    href="https://www.ozon.ru/product/2020-zov-ktulhu-138136488/?asb=eSzA%252BkilOijcRAWV8cVZi0Sn%252Bff4ckPv3VGmCDOSXUA%253D&asb2=KUW5EDCsUjXfEg_OivY89pacn0D9a3oGPaEuktZmICaBqXp0gVzswzJr3YIbP706&avtc=1&avte=2&avts=1665938469&keywords=%D0%B7%D0%BE%D0%B2+%D0%BA%D1%82%D1%83%D0%BB%D1%85%D1%83&sh=odJtMsTQuA"
+                    class="kupit">Купить</a>
+                <p>В первой части сюжет разворачивается вокруг таинственного <br>
+                    глиняного барельефа с изображением древнего божества Ктулху. <br>
+                    Рассказчик находит барельеф в вещах своего двоюродного деда <br>
+                    профессора Энджелла. Изображение было сделано скульптором <br>
+                    Уилкоксом в марте 1925 года. Скульптор сделал барельеф в <br>
+                    состоянии полусна. В это время Уилкокса преследовали загадочные <br>
+                    галлюцинации циклопических городов. Подобные кошмары в тот период <br>
+                    испытывали и многие жители. В основном это были художники, скульпторы, <br>
+                    архитекторы, и прочие люди с чувствительной психикой. <br> </p>
+
+                <p>Наутро Уилкокс поразился своему творению и отнёс его профессору <br>
+                    Энджеллу. Оказалось, что барельеф очень напоминал статуэтку, <br>
+                    изъятую полицией у членов религиозной секты в Новом Орлеане в 1907 году. <br> </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a target="_blank" href="https://ru.wikipedia.org/wiki/Дракула_(роман)"><img src="img/cover1__w340.jpg"
+                        alt="" class="imd">
+                </a>
+            </td>
+            <td>
+                <h3>Дракула</h3>
+                <a target="_blank"
+                    href="https://www.ozon.ru/product/2019-drakula-dracula-139101016/?asb=i5Wew8hR9mSm5FyHWHG3uZh4qRg%252FIeLfVaynOMGcZcI%253D&asb2=jAq5da7krwIRP2yCphk0FdF44jLYEWIuJh1GJBEZ6oUdolsDMc2XS2p1mjULYYYB&avtc=1&avte=2&avts=1665938510&keywords=%D0%B4%D1%80%D0%B0%D0%BA%D1%83%D0%BB%D0%B0&sh=odJtMmyq5g"
+                    class="kupit">Купить</a>
+                <p>Произведение является эпистолярным романом, повествование <br>
+                    в нём складывается из писем и записей в дневниках его героев, <br>
+                    а также из газетных вырезок, действие же романа происходит <br>
+                    в конце XIX века. Всё начинается с того, что молодой стряпчий <br>
+                    из Великобритании Джонатан Харкер отправляется в австро-венгерскую <br>
+                    область Трансильвания к некоему графу Дракуле, с целью продажи ему <br>
+                    недвижимости в Англии[комм. 1]. Харкер добирается до городка Бистрица, <br>
+                    а оттуда дилижанс довозит его до перевала Борго, где после захода солнца <br>
+                    Джонатана встречает экипаж со странным кучером, который и привозит стряпчего <br>
+                    в замок графа, находящегося в безлюдной глуши Карпатских гор. <br> </p>
+            </td>
+        </tr>
+    </table>
+
+    <h2 id="storical">Исторические</h2>
+
+    <table class="tbl">
+        <tr>
+            <td>
+                <a target="_blank" href="https://ru.wikipedia.org/wiki/Искусство_войны"><img src="img/is.jpg" alt=""
+                        class="imd"></a>
+            </td>
+            <td>
+                <h3>Искусство войны</h3>
+                <a target="_blank"
+                    href="https://www.ozon.ru/product/iskusstvo-voyny-sun-tszy-439445145/?asb=xBPs4QKPT6lr5pJH3ojAzMDSFEppOVAV9baY9%252Fzmlm0%253D&asb2=RDgHzkCXUHmyi3NZEaKnjkEQQYgKBG5nHEbKojycFlJ_Fjf4LzzcUwU5pmsq1-u2&avtc=1&avte=4&avts=1665938567&keywords=%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE+%D0%B2%D0%BE%D0%B9%D0%BD%D1%8B&sh=odJtMmW8fQ"
+                    class="kupit">Купить</a>
+                «Искусство войны» — самый известный <br>
+                древнекитайский трактат, посвящённый военной <br>
+                стратегии и политике и написанный Сунь-Цзы. <br>
+                Состоит из 13 глав. Является основополагающим <br>
+                текстом «школы военной философии», главным в <br>
+                её каноническом Семикнижии.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a target="_blank" href="https://ru.wikipedia.org/wiki/Бусидо"><img src="img/i696993.jpg" alt=""
+                        class="imd"></a>
+            </td>
+            <td>
+                <h3>Бусидо</h3>
+                <a target="_blank"
+                    href="https://www.ozon.ru/product/busido-kodeks-samuraya-takuan-soho-daydodzi-yudzan-232959973/?asb=rZ14CfnOXY%252BQd%252BqdCTD3wsbY45NYVzEI%252F%252BAGC%252FLci1o%253D&asb2=D3wCd1ELfJ7PTBGPFBi5DYEQxwxLcUlYWEPognIt8cMR3jbrN29d9zSqwgdhkxVE&avtc=1&avte=2&avts=1665938686&keywords=%D0%B1%D1%83%D1%81%D0%B8%D0%B4%D0%BE+%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0&sh=odJtMpg8Eg"
+                    class="kupit">Купить</a>
+                Бусидо́ — кодекс самурая, свод правил, <br>
+                рекомендаций и норм поведения истинного воина <br>
+                в обществе, в бою и наедине с собой, воинская <br>
+                философия и мораль, уходящая корнями в <br>
+                глубокую древность.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a target="_blank" href="https://ru.wikipedia.org/wiki/О_войне"><img src="img/1004795763.jpg" alt=""
+                        class="imd"></a>
+            </td>
+            <td>
+                <h3>О войне</h3>
+                <a target="_blank"
+                    href="https://www.ozon.ru/product/klauzevits-k-f-o-voyne-klauzevits-karl-fon-659053297/?asb=NAescxUDRgdgDSfycOhMEmW0mLbrWimjMLkuiWhw3Ks%253D&asb2=lUFrbf81WDHKM2GR3PSURrni_AqwDxLPQsB50LYj_ruDYSyyKlpXoL0_0faOwDT2&avtc=1&avte=2&avts=1665938781&keywords=j+%D0%B2%D0%BE%D0%B9%D0%BD%D0%B5+%D0%BA%D0%BB%D0%B0%D1%83%D0%B7%D0%B5%D0%B2%D0%B8%D1%86+%D1%84%D0%BE%D0%BD&sh=odJtMusQdA"
+                    class="kupit">Купить</a>
+                «О войне» — трактат о военном искусстве, над которым с 1816 года до самой смерти работал прусский <br>
+                офицер Карл фон Клаузевиц (1780—1831). Хотя сочинение не было доведено до конца, вдова Клаузевица
+                опубликовала его <br>
+                magnum opus в 1832 году. Принято считать, что трактат Клаузевица оказал большее влияние на
+                военачальников конца XIX и <br>
+                XX веков, чем любая другая книга[1].
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a target="_blank" href="https://ru.wikipedia.org/wiki/Наука_побеждать"><img
+                        src="img/2600392_detail.jpg" alt="" class="imd"></a>
+            </td>
+            <td>
+                <h3>Наука побеждать</h3>
+                <a target="_blank"
+                    href="https://www.ozon.ru/product/nauka-pobezhdat-ispr-i-pererab-suvorov-aleksandr-vasilevich-249166419/?asb=v18dP2RfJ4Emq9KE1MP7QkDPiaP%252FJnfBdOFhL83%252Bg6I%253D&asb2=xguwP0UfoV8HCzfqxuB6iTsos4SJZzjJHjQJV4J79rzRoNn-sX-0EbPiiD1mlAv6&avtc=1&avte=2&avts=1665938823&keywords=%D0%BD%D0%B0%D1%83%D0%BA%D0%B0+%D0%BF%D0%BE%D0%B1%D0%B5%D0%B6%D0%B4%D0%B0%D1%82%D1%8C&sh=odJtMkaWGQ"
+                    class="kupit">Купить</a>
+                «Наука побеждать» — книга генералиссимуса <br>
+                российской армии А. В. Суворова, где собраны его <br>
+                мысли и инструкции, относящиеся к военному <br>
+                делу в России.
+            </td>
+        </tr>
+    </table>
+
+    <h2 id="dystopia">Антиутопия</h2>
+
+    <table class="tbl">
+        <tr>
+            <td>
+                <a target="_blank" href="https://ru.wikipedia.org/wiki/1984_(роман)"><img src="img/6280131660.jpg"
+                        alt="" class="imd"></a>
+            </td>
+            <td>
+                <h3>1984</h3>
+                <a target="_blank"
+                    href="https://www.ozon.ru/product/1984-oruell-dzhordzh-601903722/?asb=WsSa66Vfv2soIvgjV0Q%252BR2UV8kqi5zOJty%252BJqrjUHyU%253D&asb2=smZ7ERlC49M9iNh1GXXA4lTUauxtofCkF2XzBy4OiDN1LViMOge7uu9iRCPexCCH&avtc=1&avte=2&avts=1665938868&keywords=1984&sh=odJtMlCpaQ"
+                    class="kupit">Купить</a>
+                Своеобразный антипод второй великой <br>
+                антиутопии 20-ого века "О дивный новый мир" <br>
+                Олдоса Хаксли. Что, в сущности, страшнее: <br>
+                доведенное до абсурда "общество потребления" <br>
+                или доведенное до абсолюта "общество идеи"? <br>
+                По Оруэллу, нет и не может быть ничего ужаснее <br>
+                тотальной несвободы...
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a target="_blank" href="https://ru.wikipedia.org/wiki/Голодные_игры_(трилогия)"><img
+                        src="img/3090095-suzen-kollinz-golodnye-igry.jpg" alt="" class="imd"></a>
+            </td>
+            <td>
+                <h3>Голодные игры</h3>
+                <a target="_blank"
+                    href="https://www.ozon.ru/product/golodnye-igry-novoe-izdanie-kollinz-syuzen-250456687/?asb=Nf2coSfhPHF6EOvb9ZGf4KTmql0f3yFvvWbl6zAJweg%253D&asb2=mi92FbFMEhEl5x1Bop-lfG4-5y2CuN8aeFb58r8504mQ_eMyb7MSlR5RFEZC9cy0&avtc=1&avte=2&avts=1665938905&keywords=%D0%B3%D0%BE%D0%BB%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5+%D0%B8%D0%B3%D1%80%D1%8B&sh=odJtMjVtiw"
+                    class="kupit">Купить</a>
+                Действие происходит в постапокалиптическом мире, где после <br>
+                неизвестной глобальной катастрофы на территории бывшей Северной <br>
+                Америки образовалось антиутопичное государство Панем (англ. Panem). <br>
+                Его столица Капитолий расположена в районе Скалистых гор, разделявших <br>
+                когда-то США и Канаду, а вокруг неё сосредоточены двенадцать (изначально тринадцать) <br>
+                округов — дистриктов, снабжающих столицу разнообразным сырьём. <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a target="_blank" href="https://ru.wikipedia.org/wiki/О_дивный_новый_мир"><img
+                        src="img/2398273_detail.jpg" alt="" class="imd"></a>
+            </td>
+            <td>
+                <h3>О дивный новый мир</h3>
+                <a target="_blank"
+                    href="https://www.ozon.ru/product/2020-vozvrashchenie-v-divnyy-novyy-mir-brave-new-world-revisited-brave-new-world-revisited-146082853/?asb=rUMFhuHhj%252FKI1S7cBJbgH4WczQWfsltrs%252BDs%252Bhy45Cw%253D&asb2=cnFoJYRafnLLxokgzrzb9WDLOKUiLG0hORJ2yvFOLCYFX2_vbSEVN-vSG_QGesfz&avtc=1&avte=2&avts=1665938959&keywords=j+%D0%B4%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9+%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9+%D0%BC%D0%B8%D1%80&sh=odJtMvSc5A"
+                    class="kupit">Купить</a>
+                «О дивный новый мир» — антиутопический <br>
+                сатирический роман английского писателя Олдоса <br>
+                Хаксли, опубликованный в 1932 году. В заглавие <br>
+                вынесена строчка из трагикомедии: О чудо! Какое <br>
+                множество прекрасных лиц! Как род людской <br>
+                красив! И как хорош Тот новый мир, где есть такие <br>
+                люди! — Уильям Шекспир. «Буря»
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a target="_blank" href="https://ru.wikipedia.org/wiki/Повелитель_мух"><img src="img/2398281_detail.jpg"
+                        alt="" class="imd"></a>
+            </td>
+            <td>
+                <h3>Повелитель мух</h3>
+                <a target="_blank"
+                    href="https://www.ozon.ru/product/2020-povelitel-muh-lord-of-the-flies-140538905/?advert=R6lmhD8DEQUnFvbxSzAjvPe2EVOKAUEoU_whTP79D6eKAPXZXTQT7V9VasUIh3BCVJPMIeLjaEBBpgpFZ1UqvsdyglHTgRR2FeUCsK32kLNg6G6YJYn1HcmbnmN6ynhtFds7X7dzL7vxE5XC894UomuIK_Jz4bX2dqNV6e93g2ox_RqydlYdChJQPHbqXhiSva0eONXsiKyWTtV3Aluk35AAAjMMvkBxfXJo_ufYLyISMe9scOxEJTKA_T_GVlgoBRRz8zwGYkCReaTLTdXfjQ83-BljyRuxa3E0PIh7Oj1FPSkn8WToi49uR5PtrI5ckAg_5lHisn5r68VH_Sf53HXBVbooT6iXDTuohHPbnoJaWWm2pwxbTKC7EjVZZjPznc_cjwvskUkCaNdSQQ1r4c8YG0oU9aqV6ZF-Iz0YoTG0IQ62x8Dc_EEH7JcKpMfQXxQKlVPGZUH5523ZHGYymVvn7fpxD-G1EIVRfSqfnr1Lz7QMjanTuwWCu19NL9el5U4ld9EM6NeRq5qeTFkiHSM_vABmzD4q4xF3iM2BwmlzIKLdoeysxV09Eu4wMeGFzkF3VWW5LWPn4sTdkQY6PFDb0ZqXQgnVlaInL_B7alnhkehdfrRa9yZnZlBAKA_ZDQSyouHVUeLbVuO7ntgmLlijqeSCkMPaoGWo4L404-o6tVNfDLll9U16JQ5EV4Ex9MhYhTo03QlheosNTTOz8oPuvrOB6mBaynA_L9y5eej8RipsXki_8YLibvTu8oHH&avtc=1&avte=4&avts=1665939005&keywords=%D0%BF%D0%BE%D0%B2%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C+%D0%BC%D1%83%D1%85&sh=odJtMpV4zA"
+                    class="kupit">Купить</a>
+                «Повели́тель мух» — дебютный аллегорический <br>
+                роман английского писателя, лауреата <br>
+                Нобелевской премии по литературе, Уильяма <br>
+                Голдинга, вышедший в 1954 году. В СССР на <br>
+                русском языке роман был впервые опубликован в <br>
+                1969 году <br>
+
+            </td>
+        </tr>
+    </table>
+    <div class="footer">
+        <a href="">Дима 2022 &copy;</a>
+    </div>
 </body>
+
 </html>
