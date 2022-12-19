@@ -19,8 +19,8 @@ body {
     font-size: 20px;
     font-weight: bold;
     margin: 30px;
-    color: yellow;
-    text-shadow: 5px 5px 0 black;
+    color: rgb(48, 74, 219);
+    
     transition: 0.3s;
     /* border: ; */
     background-color: #0001;
@@ -37,7 +37,7 @@ body {
     width: 100%;
 }
 .menu a:hover {
-    color: red;
+    color: black;
 }
 .imd {
     width: 300px;
@@ -95,6 +95,9 @@ td {
 h2 {
     margin-top: 100px;
     font-size: 50px;
+}
+.td-imd{
+    width: 1px;
 }
 @media(max-width: 700px){
     .menu a{
