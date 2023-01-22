@@ -1,0 +1,36 @@
+<!-- +заголовок
+-меню,жанры
+-Таблица
+-картинки -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Библиотека ДМИТРИЯ Первого</h1>
+    <div class="menu">
+        <a onclick="setMenu('Фентези')" href="#fantasy">Фэнтези</a>
+         <!-- вызываем функцию setMenu при нажатии на элемент -->
+        <a onclick="setMenu('Фантастика')" href="#fiction">Фантастика</a>
+        <a onclick="setMenu('Исторические')" href="#storical">Исторические</a>
+        <a onclick="setMenu('Антиутопия')" href="#dystopia">Антиутопия</a>
+    </div>
+
+    <table class="base tbl"></table>
+    
+    <div class="footer">
+
+        <a href="">Дима 2022 &copy;</a>
+    </div>
+    <script src="script2.js"></script>
+</body>
+
+</html>
