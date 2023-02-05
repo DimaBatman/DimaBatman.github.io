@@ -1,8 +1,3 @@
-<!-- +заголовок
--меню,жанры
--Таблица
--картинки -->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,26 +5,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сайт</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Библиотека ДМИТРИЯ Первого</h1>
-    <div class="menu">
-        <a onclick="setMenu('Фентези')" href="#fantasy">Фентези</a>
-        <a onclick="setMenu('Фантастика')" href="#fiction">Фантастика</a>
-        <a onclick="setMenu('Исторические')" href="#storical">Исторические</a>
-        <a onclick="setMenu('Антиутопия')" href="#dystopia">Антиутопия</a>
+    <div class="nav-menu">
+        <a href="#main-section" class="logo-link">
+            <img src="img/logo.svg" alt="" class="nav-logo">
+        </a>
+        <div class="nav-container">
+            <a href="#logotip" class="nav-item">О нас</a>
+            <a href="#nogotip" class="nav-item">Что мы делаем</a>
+            <a href="" class="nav-item">Услуги</a>
+            <a href="" class="nav-item">Преимущества</a>
+            <a href="" class="nav-item">Портфолио</a>
+            <a href="" class="nav-item">Связаться</a>
+        </div>
+    </div>
+    <div class="main-section" id="main-section">
+        <div class="main-content">
+            <h1 class="main-content-text">Мы создаем сайты</h1>
+            <a href="" class="main-content-btn">Познакомиться с нами</a>
+        </div>
+        <div class="main-background">
+            <img src="img/background/circle1.svg" alt="" class="circle1">
+            <img src="img/background/circle2.svg" alt="" class="circle2">
+            <img src="img/background/circle3.svg" alt="" class="circle3">
+            <img src="img/background/circle-bordered.svg" alt="" class="circle-bordered">
+            <img src="img/background/circle-dashed-border.svg" alt="" class="circle-dashed-border">
+            <img src="img/background/triangle.svg" alt="" class="triangle">
+            <img src="img/background/octagon.svg" alt="" class="octagon">
+        </div>
+    </div>
+    <div id="logotip"  class="about" id="about">
+        <div class="container">
+            <h2 class="section-title doing-title">О нас</h2>
+            <p class="section-text doing-text">Наше агентство занимается созданием и поддержкой веб-сайтов. Вы можете
+                заказать у нас, как полный цикл разработки, так и доработку уже готового сайта.
+                Мы обладаем большим опытом и хорошими отзывами. Всегда стремимся сделать свою работу качественно и в
+                оговоренные сроки. А цены у нас одни из самых низких на рынке.
+            </p>
+        </div>
+    </div>
+    <div  class="doing" id="doing">
+        <div class="container">
+            <div class="doing-left">
+                <h2 class="section-title doing-title">Что мы делаем?</h2>
+                <p class="section-text doing-text">Обращаясь к нам, вы можете рассчитывать на создание отличного сайта.
+                    В наши услуги входит полный цикл разработки сайта. Мы поможем вам создать дизайн сайта и подготовим
+                    необходимые исходники. Далее происходит верстка и написание логики сайта. Дальше сайт поступает в
+                    ваше распоряжение и вы используете его по своему усмотрению. При возникновении потребности, мы можем
+                    осуществлять поддержку сайта и его сопровождение, в течении всего жизнного цикла.</p>
+            </div>
+        </div>
+        <div class="doing-right">
+            <img src="img/background/pic.svg" alt="">
+        </div>
+    </div>
+    <div class="advantages" id="adventages">
+        <div class="container">
+            <div class="advantages-content">
+                <h2 class="section-title advantages-title">Почему мы хороши?</h2>
+                <div class="advantages-card adv-card1">
+                    <h3 class="advantages-card-title">В дизайне</h3>
+                    <ul class="advantages-list">
+                        <li class="section-text">Опытная команда дизайнеров</li>
+                        <li class="section-text">Внимание к Андреям</li>
+                        <li class="section-text">Идеи про Андеев</li>
+                    </ul>
+                </div>
+                <div class="advantages-card adv-card2">
+                    <h3 class="advantages-card-title">В разработке</h3>
+                    <ul class="advantages-list">
+                        <li class="section-text">Огромный багаж собственных библиотек и плагинов
+                        </li>
+                        <li class="section-text">Мы любим чистый, красивый и масштабируемый код
+                        </li>
+                        <li class="section-text">Планируем архитектуру сайта
+                        </li>
+                    </ul>
+                </div>
+                <div class="advantages-card adv-card3">
+                    <h3 class="advantages-card-title">В поддержке</h3>
+                    <ul class="advantages-list">
+                        <li class="section-text">Самые дружелюбная тех поддержка
+                        </li>
+                        <li class="section-text">Работаем 24/7
+                        </li>
+                        <li class="section-text">Чем дольше поддержка, тем дешевле стоимость Андреев
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="advantages-bg">
+                <img src="img/background/advantages_bg_1.svg" alt="" class="advantages-circle">
+                <img src="img/background/advantages_bg_2.svg" alt="" class="advantages-hexagon">
+
+            </div>
+        </div>
     </div>
 
-    <table class="base tbl"></table>
-    
-    <div class="footer">
-
-        <a href="">Дима 2022 &copy;</a>
+    <div class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Наши работы</h2>
+            <table class="portfolio-table">
+                <tr class="portfolio-row">
+                    <td class="portfolio-cell cell1"></td>
+                    <td class="portfolio-cell cell2"></td>
+                </tr>
+                <tr class="portfolio-row">
+                    <td class="portfolio-cell cell3"></td>
+                    <td class="portfolio-cell cell4"></td>
+                </tr>
+            </table>
+            <div class="portfolio-mobile">
+                <img src="img/portfolio/site1.png" alt="" class="portfolio-mobile-cell">
+                <img src="img/portfolio/site2.png" alt="" class="portfolio-mobile-cell">
+                <img src="img/portfolio/site3.png" alt="" class="portfolio-mobile-cell">
+                <img src="img/portfolio/site4.png" alt="" class="portfolio-mobile-cell">
+            </div>
+        </div>
     </div>
-    <script src="script.js"></script>
+
+    <div class="contact-us" id="contact-us">
+        <div class="container">
+            <h2 class="section-title contact-us-title" >Напишите нам</h2>
+            <a href="" class="main-content-btn">Написать нам</a>
+        </div>
+    </div>
 </body>
 
 </html>
