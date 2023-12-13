@@ -1,145 +1,35 @@
+<!-- +заголовок
+-меню,жанры
+-Таблица
+-картинки -->
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Арт студия</title>
+    <title>Сайт</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="nav-menu">
-        <a href="" class="menu-item logo">
-            <img src="img/icons/site-logo.svg" alt="" class="logo-img">
-        </a>
-        <a href="" class="menu-item">
-            <img src="img/icons/section2-ic.svg" alt="" class="item-img">
-        </a>
-        <a href="" class="menu-item">
-            <img src="img/icons/section3-ic.svg" alt="" class="item-img">
-        </a>
-        <a href="" class="menu-item">
-            <img src="img/icons/section4-ic.svg" alt="" class="item-img">
-        </a>
-        <a href="" class="menu-item">
-            <img src="img/icons/section5-ic.svg" alt="" class="item-img">
-        </a>
-        <a href="" class="menu-item">
-            <img src="img/icons/section6-ic.svg" alt="" class="item-img">
-        </a>
-    </div>
-    <div class="social">
-        <a href="" class="social-item">
-            <img src="img/icons/social-fb-ic.svg" alt="" class="social-item-img">
-        </a>
-        <a href="" class="social-item">
-            <img src="img/icons/social-vk-ic.svg" alt="" class="social-item-img">
-        </a>
-        <a href="" class="social-item">
-            <img src="img/icons/social-tiktok-ic.svg" alt="" class="social-item-img">
-        </a>
-        <a href="" class="social-item">
-            <img src="img/icons/social-inst-ic.svg" alt="" class="social-item-img">
-        </a>
+    <h1>Библиотека ДМИТРИЯ Первого</h1>
+    <div class="menu">
+        <a onclick="setMenu('Фентези')" href="#fantasy">Фентези</a>
+        <a onclick="setMenu('Фантастика')" href="#fiction">Фантастика</a>
+        <a onclick="setMenu('Исторические')" href="#storical">Исторические</a>
+        <a onclick="setMenu('Антиутопия')" href="#dystopia">Антиутопия</a>
     </div>
 
-    <div class="header">
-        <div class="header-left">
-            <div class="color dark-blue"></div>
-            <div class="color red"></div>
-            <div class="color yellow"></div>
-            <div class="color light-blue"></div>
-        </div>
-        <div class="header-right">
-            <h1 class="header-title">
-                Арт<span> студия</span>
-            </h1>
-            <div class="header-branches">
-                <p class="branch-item">Фотография</p>
-                <p class="branch-item">Арт</p>
-                <p class="branch-item">Дизайн и брендинг</p>
-            </div>
-        </div>
-    </div>
+    <table class="base tbl"></table>
+    
+    <div class="footer">
 
-    <div class="about">
-        <div class="about-content">
-            <div class="about-content-left">
-                <h2 class="about-title">Кто мы?</h2>
-                <p class="about-text">Наша студия создает крутые дизайны и брендинг.
-                    Мы делаем качественно. В числе наших клиентов крупные компании и вообще мы молодцы</p>
-            </div>
-            <div class="about-content-right">
-                <div class="about-rect rect1"></div>
-                <div class="about-rect rect2"></div>
-                <div class="about-rect rect3"></div>
-            </div>
-
-        </div>
-        <div class="about-bg">
-            <p class="bg-text">Знакомимся</p>
-        </div>
+        <a href="">Дима 2022 &copy;</a>
     </div>
-
-    <div class="advantages">
-        <div class="advantages-content">
-            <h2 class="advantages-title">Современный дизайн</h2>
-            <p class="advantages-text">Разрушаем стереотипы, делаем крутой дизайн и создаем ШЕДЕВРЫ</p>
-            <img src="img/pictures/3rd-section-img.png"  alt="" class="advantages-img">
-        </div>
-        <div class="advantages-bg">
-            <p class="bg-text">Наша фишка</p>
-        </div>
-    </div>
-    <div class="photo">
-        <div class="photo-left"></div>
-        <div class="photo-right">
-            <div class="photo-content">
-                <h2 class="photo-title">А еще...</h2>
-                <p class="photo-text">У нас крутые фотографы, которые могут сделать Вам фотки.</p>
-            </div>
-            <div class="photo-bg">
-                <p class="bg-text">Мы полны сюрпризов</p>
-                <div class="bg-img"></div>
-            </div>
-        </div>
-    </div>
-    <div class="gallery">
-        <h2 class="gallery-title">Наше портфолио</h2>
-        <div class="gallery-content">
-            <img src="img/pictures/gallery1.png" alt="" class="gallery-item item1">
-            <img src="img/pictures/gallery2.png" alt="" class="gallery-item item2">
-            <img src="img/pictures/gallery3.png" alt="" class="gallery-item item3">
-            <img src="img/pictures/gallery4.png" alt="" class="gallery-item item4">
-            <img src="img/pictures/gallery5.png" alt="" class="gallery-item item5">
-            <img src="img/pictures/gallery6.png" alt="" class="gallery-item item6">
-            <img src="img/pictures/gallery7.png" alt="" class="gallery-item item7">
-        </div>
-    </div>
-
-    <div class="contact">
-        <div class="left-side"></div>
-        <div class="mid-side">
-            <h2 class="contact-title">Связаться с нами</h2>
-            <form action="" class="contact-form">
-                <label for="" class="form-label">Имя</label>
-                <input type="text" placeholder="Иван Иванов" class="text-input">
-                <label for="" class="form-label">Почта</label>
-                <input type="email" placeholder="Ivan@mail.ru" class="text-input">
-                <label for="" class="form-label">Вид юр.лица</label>
-                <select name="" id="" class="select-input">
-                    <option value="Yes">Да, Мы-компания</option>
-                    <option value="No">Нет, Я-физ.лицо</option>
-                </select>
-                <label for="" class="form-label">Согласие на обработку данных</label>
-                <input type="checkbox" class="check-input">
-
-                <button class="form-btn">Отправить форму</button>
-            </form>
-        </div>
-        <div class="right-side"></div>
-    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
